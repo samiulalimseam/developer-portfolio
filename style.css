@@ -18,6 +18,7 @@ h2{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -25,7 +26,10 @@ section{
 }
 .half-width img{
     width: 80%;
+    margin-top: 30px;
+   
 }
+
 .hire-btn{
     background-color: #F88768;
     color: white;
@@ -36,4 +40,11 @@ section{
 .top-banner{
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
+    
 }
+.bottom-banner{
+    background-image: url(img/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
