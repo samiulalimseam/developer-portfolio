@@ -1,6 +1,9 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+body{
+    margin: 0;
+}
 h1{
     font-size: 50px;
     font-weight: 700;
@@ -11,8 +14,26 @@ h2{
     font-weight: 600;
 }
 .orange-color{
-    color: orange;
+    color: #F88768;
 }
-p{
-   
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 80%;
+}
+.hire-btn{
+    background-color: #F88768;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.top-banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
 }
