@@ -7,13 +7,7 @@ import { ParticleBG } from './ParticleBG';
 
 const Main = () => {
     return (
-        <div className='bg-gradient-to-r
-        from-base-100
-        via-indigo-900
-        to-violet-800
-        to-blue-900
-        via-indigo-900
-        background-animate'>
+        <div className=''>
            <Navbar></Navbar> 
            <ParticleBG></ParticleBG>
            <Outlet></Outlet>
