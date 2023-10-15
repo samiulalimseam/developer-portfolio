@@ -12,7 +12,7 @@ const Home = () => {
                     <div className="hero-content flex-col lg:flex-row-reverse">
                         <img  alt='' src={photo} className="w-full border-b animate__animated animate__zoomIn max-w-sm animate__pulse  p-" />
                         <div className='max-w-96'>
-                            <h2 className="text-xl  font-thin text-white    py-2 ">Welcome to my portfolio</h2>
+                            <h2 className="text-xl  font-thin text-white    py-2 ">Hey, I'm Samiul</h2>
                             <span className="text-5xl font-thin">I'm Samiul Alim</span>
                             <span className="text-2xl "> _
                                 <Typewriter
@@ -28,7 +28,7 @@ const Home = () => {
                                 capability to produce enterprise-level projects grounded on the conditions and have done several projects. I
                                 am utterly passionate about the rearmost technology.
                             </p>
-                            <button className=" btn bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  btn-primary text-white glass rounded-none font-medium">Download Resume</button>
+                            <a href='https://drive.google.com/file/d/1r_o8IjwwwaiD7FDsCgBGRKRcKGkPSauN/view' className=" btn bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  btn-primary text-white glass rounded-none font-medium">Download Resume</a>
                         </div>
                     </div>
                 </div>
