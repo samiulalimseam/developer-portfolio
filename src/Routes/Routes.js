@@ -7,6 +7,7 @@ import Home from '../Components/Home/Home';
 import Projects from '../Components/Home/Projects';
 import Main from '../Components/Layout/Main';
 import NotFound from '../Components/NotFound/NotFound';
+import Comps from '../Components/comps/Comps';
 
 
 const routes = createBrowserRouter([
@@ -31,6 +32,7 @@ const routes = createBrowserRouter([
                 path: '/blog',
                 element:<Blog></Blog>
             },
+            
             {
                 path: '/about',
                 element:<About></About>

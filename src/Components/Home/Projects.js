@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
+    const [filter, setFilter] = useState('All')
     useEffect(() => {
         fetch('projects.json')
             .then(res => res.json())
@@ -12,16 +13,16 @@ const Projects = () => {
             <h2 className="text-2xl text-center">PROJECTS</h2>
             <div className="flex w-full justify-center items-center">
                 <div className="btn-group  my-5 mx-auto ">
-                    <button className="btn btn-outline btn-secondary ">All</button>
-                    <button className="btn btn-outline btn-secondary ">Frontend</button>
-                    <button className="btn btn-outline btn-secondary ">Backend</button>
-                    <button className="btn btn-outline btn-secondary ">Fullstack</button>
+                    <button onClick={()=> setFilter('all') } className={`${filter === 'all' ? 'bg-blue-700 ' : '' } btn btn-outline btn-secondary `}>All</button>
+                    <button onClick={()=> setFilter('Frontend') } className={` ${filter === 'Frontend' ? 'bg-blue-700 ' : '' } btn btn-outline btn-secondary `}>Frontend</button>
+                    <button onClick={()=> setFilter('Backend') } className={` ${filter === 'Backend' ? 'bg-blue-700 ' : '' } btn btn-outline btn-secondary `}>Backend</button>
+                    <button onClick={()=> setFilter('Fullstack') } className={` ${filter === 'Fullstack' ? 'bg-blue-700 ' : '' } btn btn-outline btn-secondary `}>Fullstack</button>
                 </div>
             </div>
 
             <div className="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3">
                 {
-                    projects.map(p => {
+                    projects.filter(proj=> proj.type.toLowerCase().includes(filter.toLowerCase())).map(p => {
                         return <div className=" rounded-lg w-[350px] glass mx-auto mb-5">
                             <figure><img className='w-full rounded-t-lg' src={p.img} alt="car!" /></figure>
                             <div className="card-body">

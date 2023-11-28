@@ -1,13 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import logo from '../../Assets/code.png'
 
+
 const Navbar = () => {
+    
+        const location = useLocation()
+        
     const navItems = <>
-        <li> <Link to={`/`}>Home</Link> </li>
-        <li> <Link to={`/about`}>About</Link> </li>
-        <li> <Link to={`/projects`}>Projects</Link> </li>
-        <li> <Link to={`/blog`}>Blog</Link> </li>
+        <li className='mx-2'> <Link to={`/`}>Home</Link> </li>
+        <li className='mx-2'> <Link to={`/about`}>About</Link> </li>
+        <li className='mx-2'> <Link to={`/projects`}>Projects</Link> </li>
+        <li className='mx-2'> <a target='blank' href={`https://samiul-dev-components.netlify.app/`}>Components</a> </li>
+        <li className='mx-2'> <Link to={`/blog`}>Blog</Link> </li>
     
     </>
     return (
