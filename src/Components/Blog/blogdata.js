@@ -2,6 +2,66 @@ export const data = {
   blogs: [
     {
       id: 1,
+      title: "Transitioning from full-stack development to machine learning engineering is an exciting journey! Here's a detailed roadmap tailored to your background and goals",
+      imageUrl:
+        "https://www.fsm.ac.in/blog/wp-content/uploads/2022/08/ml-e1610553826718.jpg",
+      content: `# Roadmap to Becoming a Machine Learning Engineer
+
+      Transitioning from full-stack development to machine learning engineering is an exciting journey! Here's a detailed roadmap tailored to your background and goals:
+      
+      ## Step 1: Python Fundamentals (4-6 weeks)
+      - **Topics**: Variables, Data Types, Control Flow, Functions, Object-Oriented Programming (OOP), File Handling, Libraries (NumPy, Pandas)
+      - **Resources**:
+        - Online courses: Codecademy, Coursera, or Udemy
+        - Books: "Automate the Boring Stuff with Python" by Al Sweigart
+        - Practice: LeetCode, HackerRank, or similar platforms
+      
+      ## Step 2: Data Structures and Algorithms (6-8 weeks)
+      - **Topics**: Arrays, Linked Lists, Stacks, Queues, Trees, Graphs, Sorting and Searching Algorithms, Dynamic Programming
+      - **Resources**:
+        - Online courses: Coursera's "Algorithms Specialization" or "Data Structures and Algorithms" by MIT on edX
+        - Books: "Introduction to Algorithms" by Cormen et al.
+        - Practice: LeetCode, HackerRank, or similar platforms
+      
+      ## Step 3: Intermediate Python and Libraries (4-6 weeks)
+      - **Topics**: Advanced Python concepts, NumPy for numerical computing, Pandas for data manipulation, Matplotlib/Seaborn for data visualization
+      - **Resources**:
+        - Online courses: DataCamp, Udemy, or Coursera's "Python for Data Science and Machine Learning Bootcamp"
+        - Books: "Python Data Science Handbook" by Jake VanderPlas
+        - Projects: Work on personal projects integrating data analysis and visualization
+      
+      ## Step 4: Introduction to Machine Learning (6-8 weeks)
+      - **Topics**: Supervised Learning (Regression, Classification), Unsupervised Learning (Clustering, Dimensionality Reduction), Model Evaluation, Cross-validation, Bias-Variance Tradeoff
+      - **Resources**:
+        - Online courses: Coursera's "Machine Learning" by Andrew Ng or "Practical Deep Learning for Coders" by fast.ai
+        - Books: "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" by Aurélien Géron
+        - Projects: Implement algorithms from scratch, participate in Kaggle competitions, or work on real-world datasets
+      
+      ## Step 5: Deep Learning (8-10 weeks)
+      - **Topics**: Neural Networks, Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), Transfer Learning, TensorFlow/Keras/PyTorch
+      - **Resources**:
+        - Online courses: Coursera's "Deep Learning Specialization" by Andrew Ng or fast.ai's "Deep Learning for Coders"
+        - Books: "Deep Learning" by Ian Goodfellow et al.
+        - Projects: Implement deep learning models for image classification, natural language processing (NLP), or time series analysis
+      
+      ## Step 6: Advanced Topics and Specializations (ongoing)
+      - **Topics**: Reinforcement Learning, Natural Language Processing (NLP), Computer Vision, Time Series Analysis, Deployment and Productionization
+      - **Resources**:
+        - Online courses: Specialized courses on Coursera, Udacity, or edX
+        - Books: Advanced textbooks on specific topics
+        - Projects: Dive deeper into areas of interest, contribute to open-source projects, or work on advanced research projects
+      
+      ### Estimated Time to Learn Fundamentals of ML:
+      - **Total**: Approximately 6-12 months, depending on your pace and dedication.
+      - **Daily Commitment**: 1 hour per night should be sufficient for steady progress, but consistency is key.
+      
+      Remember to practice coding regularly, work on projects, and stay engaged with the machine learning community through forums, meetups, and conferences. Good luck on your journey to becoming a machine learning engineer!`
+      ,
+      references: [
+      ],
+    },
+    {
+      id: 2,
       title: "Is Devin AI Really Worth the Hype?",
       imageUrl:
         "https://raw.githubusercontent.com/samiulalimseam/pictures/main/_db508fad-3da9-4ee3-94de-7baa0e9014c4.jpg",
